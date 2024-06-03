@@ -25,7 +25,7 @@ foreach($data as $key => $value){
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>v1</title>
 </head>
 <body>
 
@@ -36,7 +36,7 @@ foreach($data as $key => $value){
         <div class = "filter-container">
             <div class = "filter-content">
                 <h1 class = "filter">Filter</h1>
-                <input type="text" id="myInput" onkeyup="filterByName(this)" placeholder="Search for courses...">
+                <input class = "text" type="text" id="myInput" onkeyup="filterByName(this)" placeholder="Search for courses...">
                 <h1>academic-period</h1>
                 <select class = "academic-periods" name="academic-periods" id="inputPeriod" >
                     <option value="<?=$AcademicPeriod ?>" disabled selected> Select Academic Period </option>
